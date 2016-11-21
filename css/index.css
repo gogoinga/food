@@ -1,0 +1,609 @@
+.head_box{
+	width: 100%;
+	height: 200px;
+	background: url(../image/shop-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.head {
+	width: 100%;
+	height: 60px;
+	background: rgba(0, 0, 0, 0.5)
+}
+.head_left {
+	float: left;
+	width: 50%;
+	height: 60px;
+}
+.head_left h1 {
+	display: inline-block;
+	margin-left: 12%;
+}
+.head_logo {
+	display: inline-block;
+	width: 134px;
+	height: 50px;
+	background: url(../image/logo.png);
+	background-repeat: no-repeat;
+    margin-top: 5px
+}
+.left_box {
+	margin-top: 4px;
+	margin-left: 35px;
+}
+.head_title{
+	float: left;
+	width: 100px;
+	line-height: 50px;
+	text-align: center;
+}
+.head_title a{
+	color: #ffffff;
+}
+.right_box{
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-top: 15px;
+}
+.nav_box {
+	float: right;
+}
+.cur:hover {
+	cursor: pointer;
+}
+.list{
+	width: 100px;
+	height: 30px;
+	float: left;
+	color: #ffffff;
+}
+.list .icon-kefu ,.list .icon-phone{
+	font-size: 25px;
+	color: white;
+	padding-right: 6px;
+}
+.shop_phone{
+	display: none;
+}
+.cur:hover .shop_phone{
+	width: 160px;
+	height: 28px;
+	background: rgba(255, 255, 255, 0.5);
+	display: block;
+}
+.cur:hover .shop_phone span{
+		padding: 30px 20px;
+		font-size: 20px;
+		color: #dadada;
+}
+.user_box{
+	width: 25%;
+	height: 30px;
+	float: right;
+	margin-right: 8%;
+	margin-left: 8%;
+	margin-top:4px;
+}
+.user_box a{
+	color: #0086b3;
+}
+.user_box .icon-ren{
+	color: #ffffff;
+	font-size: 20px;
+}
+.gooder_box {
+	width: 30%;
+	margin-left:8%;
+	margin-top: 20px;
+	float: left;
+}
+.box_radio {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 2px solid #df5000;
+	float: left;
+}
+.box_radio img{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.shop_box {
+	float: left;
+	margin-top: 20px;
+	margin-left: 5%;
+}
+.shop_box .icon-xing1{
+	color: #999999;
+}
+.shop_box .after_ping{
+	color: gold;
+}
+.mar_top{
+	margin-top: 10px;
+}
+.font_20{
+	font-size: 20px;
+	color: #ffffff;
+}
+.font_14{
+	font-size: 17px;
+	color: #ffffff;
+}
+.shop_contant{
+	width: 36%;
+	float: left;
+	margin-left: 25%;
+}
+.shop_contant>div>p{
+	display: inline-block;
+	line-height: 45px;
+	padding-left: 8px;
+}
+
+.swiper-slide {
+	overflow: hidden;
+}
+.swiper-slide img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.tab_ul {
+	width: 90%;
+	margin: 0 auto;
+}
+.nav_list {
+	width: 100%;
+	background: #ffffff;
+
+}
+.tab_name {
+	width: 120px;
+	float: left;
+	padding: 15px 0px;
+	position: relative;
+	text-align: center;
+	transition: all 0.3s;
+}
+.nav_list ul .active{
+	border-bottom: 2px solid #1e95fa;
+}
+.tab_name::after {
+    content: ' ';
+    width: 1px;
+    height: 18px;
+    position: absolute;
+    top: 39%;
+    right: 0px;
+    background: #e3e3e3;
+}
+.tab_name a{
+	color: #999999;
+	font-size: 20px;
+}
+.active a {
+		color: #1e95fa;
+}
+.box_left {
+	width: 70%;
+	margin: 0px 0px 0px 5%;
+	float: left;
+}
+.food_item {
+	width: 100%;
+	border: 1px solid #e3e3e3;
+	margin-top: 20px;
+}
+.food_menu {
+	background: #ffffff;
+	padding-top: 12px;
+}
+.food_type {
+	float: left;
+	width: 24%;
+	padding: 0px 0px 12px 0px;
+	text-align: center;
+}
+.food_type a{
+	color: #666666;
+}
+.food_type a:hover {
+	color: #0db3f8;
+}
+.titile_padd_left{
+	padding-left: 15px;
+}
+.h5_size{
+	font-size: 24px;
+	display: inline-block;
+	color: #434342;
+}
+.yue_cai {
+	width: 100%;
+	margin-top: 30px;
+}
+.food_head_title {
+	padding-left: 15px;
+	margin-top: 20px;
+}
+.food_head_title span{
+	font-size: 14px;
+	color: #999;
+}
+.food_container {
+	width: 45%;
+	background: #ffffff;
+	margin-top: 12px;
+	border: 1px solid #e3e3e3;
+	border-radius: 5px;
+	float: left;
+	margin-right: 30px;
+	max-width: 486px;
+}
+.left_pic {
+	float: left;
+	width: 100px;
+	height: 100px;	
+}
+.left_pic img{
+	display: block;
+	width: 100%;
+}
+.right_container{
+	float: left;
+	margin-left: 15px;
+	position: relative;
+	width: 66%;
+}
+.food_name {
+	font-weight: 600;
+	font-size: 15px;
+	padding-top: 6px;
+	color:  #0089dc;
+}
+.font_style_12 {
+	font-size: 12px;
+	color: #999;
+}
+.xing_box {
+	display: inline-block;
+}
+.xing_box .icon-xing1{
+	color: #999999;
+}
+.xing_box .after_ping {
+	color: gold;
+}
+.margin_box {
+	margin-top: 10px;
+}
+.money {
+	position: relative;
+	display: inline-block;
+	padding-left: 16px;
+	padding-top: 1px;
+	font-size: 16px;
+	color: #0089dc;
+    margin-top: 5px;
+}
+.money::after {
+	content: '￥';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	color: #0089dc;
+	font-size: 20px;
+}
+.buy_button {
+	padding: 2px 5px;
+	float: right;
+	color: #ffffff;
+	background: #0089dc;
+	border-radius: 20px;
+	cursor: pointer;
+	margin-top: 3px;
+
+}
+.line_height_25 {
+	line-height: 18px;
+}
+
+.foot {
+	width: 100%;
+	background: #0089dc;
+	text-align: center;
+	color: #ffffff;
+	margin-top: 20px;	
+}
+.foot .icon-mian {
+	font-size: 50px;
+	color: #ffffff;
+}
+.box_right {
+	width: 20%;
+	height: auto;
+	background: #ffffff;
+	float: right;
+	padding-bottom: 15px;
+	margin-right: 20px;
+	box-shadow: 1px 1px 1px 1px #ddd;
+}
+.color_blue{
+	font-size: 16px;
+	color: #0089dc;
+	line-height: 25px;
+}
+.box_right_h3{
+	background-color: #0089dc;
+	font-size: 20px;
+	color: #ffffff;
+	padding:10px 0px 10px 10px; 
+}
+.text_container {
+	width: 90%;
+	height: 160px;
+	margin: 10px auto;
+}
+
+.pin_lun {
+	width: 100%;
+	height: 600px;
+	border: 1px solid #e3e3e3;
+	margin-top: 20px;
+	display: none;
+}
+.pin_tab {
+	width: 120px;
+	line-height: 42px;
+	border-right: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+	float: left;
+	background: #ffffff;
+	text-align: center;
+	position: relative;
+}
+.pin_lun ul .active_b::after {
+    content: '';
+    width: 120px;
+    height: 3px;
+    background: #0089dc;
+    position: absolute;
+    top: 0px;
+    display: block;
+}
+.pin_tab::after {
+	content: '';
+    width: 0px;
+    height: 3px;
+    background: #0089dc;
+    position: absolute;
+    top: 0px;
+    display: block;
+    transition: width 0.3s;
+}
+.pin_tab:hover::after {
+	content: '';
+    width: 120px;
+    height: 3px;
+    background: #0089dc;
+    position: absolute;
+    top: 0px;
+    display: block;
+}
+.bad_pin{
+	display: none;
+}
+.pin_lun_li {
+	width: 100%;
+	min-height:100px;
+	border-top: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3; 
+}
+.user_head {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.user_head img{
+	display: block;
+	width: 100%;
+}
+.user_container {
+	display: inline-block;
+	width: 88%;
+	margin-left: 20px;
+	padding-top: 1px;
+}
+.user_id {
+	font-size: 16px;
+	line-height: 20px;
+	margin-top: 5px;
+}
+.time_box {
+	float: right;
+}
+.user_pin_text {
+	margin-top: 6px;
+	padding-bottom: 30px;
+}
+.shop_msg {
+	width: 100%;
+	display: none;
+}
+.shoper_msg{
+	    margin-top: 35px;
+}
+.shoper_msg h5{
+	font-size: 22px;
+	color: black;
+	font-weight: 600;
+}
+.msg_box {
+	width: 100%;
+	background: #ffffff;
+	padding:10px 0px; 
+	margin-top: 20px;
+}
+.msg_box p{
+	line-height: 26px;
+	font-size: 16px;
+	padding-left: 25px;
+}
+.garlly_box{
+	margin-top: 20px;
+	width: 100%;
+}
+.garlly_box h5{
+	font-size: 22px;
+	color: black;
+	font-weight: 600;
+}
+.garlly_pic_box {
+	margin-top: 15px;
+	width: 100%;
+	background: #ffffff;
+	padding: 15px 0px;
+}
+.pic_box {
+	width: 20%;
+	height: 160px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	margin-left: 20px;
+}
+.pic_box img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.garlly_name {
+	display: inline-block;
+	width: 100%;
+	line-height: 30px;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	color: #ffffff;
+}
+/* 购物车 */
+.buy_car{
+	width: 320px;
+	background: #ffffff;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	z-index: 100;
+}
+.car_head{
+	padding: 15px 20px;
+	border-bottom: 1px solid #e3e3e3;
+}
+.car_head .icon-gouwuche{
+	font-size: 25px;
+	color: #0089dc;
+	float: right;
+}
+.clear_all {
+	color: #0089dc;
+}
+.car_food{
+	width: 100%;
+	padding: 15px 10px 15px 20px;
+	text-align: center;
+	border-bottom: 1px solid #e3e3e3;
+}
+.add_cut{
+	display: inline-block;
+	width: 30%;
+	font-size: 0px;
+    float: right;
+    margin-right: 36px;
+}
+.all_money_box {
+	display: inline-block;
+	float: right;
+	margin-top: 3px;
+}
+.add,.cut{
+	padding: 2px 7px;
+	border: 1px solid #e3e3e3;
+	font-size: 14px;
+	cursor: pointer;
+}
+.add:hover,.cut:hover{
+	color: #0089dc; 
+}
+.input_food_num{
+	padding: 2px 0px;
+	text-align: center;
+	border-top: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+	font-size: 14px;
+	width: 30px;
+}
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+}
+input::-webkit-outer-spin-button {
+-webkit-appearance: none;
+}
+.all_money_box {
+	color: #0089dc;
+}
+.car_bottom {
+	padding: 10px 10px;
+	background: #2c2c2c;
+	position: relative;
+}
+.car_bottom .icon-gouwuche {
+	color: #ffffff;
+	font-size: 36px;
+}
+.play_button {
+	padding: 10px 10px;
+	background: #0089dc;
+	display: inline-block;
+	float: right;
+	text-align: center;
+	color: #ffffff;
+	cursor: pointer;
+}
+.food_num{
+	display: inline-block;
+	width: 25px;
+	line-height: 25px;
+	border-radius: 50%;
+	background:#0089dc; 
+	position: absolute;
+	top: 1px;
+	left:29px;
+	color: #ffffff;
+	text-align: center;
+}
+.all_food_money{
+	font-size: 18px;
+	color: #ffffff;
+	position: relative;
+	padding-left: 18px;
+}
+.peisong_money {
+	font-size: 14px;
+	color: #ffffff;
+}
+.all_food_money::before {
+	content: '￥';
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	font-size: 22px;
+	top: -3px;
+	left: -1px;
+}

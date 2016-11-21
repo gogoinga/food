@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/order.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/swiper-3.3.1.jquery.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+		<header>
+			<div class="bg">
+			<div class="head_left">
+				<i class="head_logo"></i>
+				<span class="head_title">订单信息</span>
+				</div>
+				<div class="step">
+					<div class="dian_box active">
+						<span class="dian">1</span>
+						<p>选择商品</p>
+					</div>
+					<div class="dian_box active">
+						<span class="dian">2</span>
+						<p>确认订单</p>
+					</div>
+					<div class="dian_box">
+						<span class="dian">3</span>
+						<p>完成购买</p>
+					</div>
+					
+				</div>
+			</div>
+		</header>
+<!-- 主体内容 -->
+	<div class="main_box">
+	<!-- 左侧订单表 -->
+		<div class="order_box clear">
+				<div class="order_title clear">
+					<h5 class="float_l">订单详情</h5>
+					<a class="float_r" href="javascript:;"><返回商店修改</a>
+				</div>
+				<div class="goods_name_box">
+					<span class="goods_name">商品</span>
+					<span class="goods_number">数量</span>
+					<span class="goods_money">小计</span>
+				</div>
+<!-- 后台动态添加进去的商品信息 -->
+			<div class="car_food clear">
+					<span class="float_l">牛肉汉堡</span>
+				<div class="all_money_box">￥<span class="chose_all_money">100</span></div>
+				<div class="add_cut">
+					<i class="add">-</i>
+					<input type="number" name="food_num_input" class="input_food_num" value="1">
+					<i class="cut">+</i>
+				</div>
+			</div>
+			<div class="car_food clear">
+					<span class="float_l">牛肉汉堡</span>
+				<div class="all_money_box">￥<span class="chose_all_money">100</span></div>
+				<div class="add_cut">
+					<i class="add">-</i>
+					<input type="number" name="food_num_input" class="input_food_num" value="1">
+					<i class="cut">+</i>
+				</div>
+			</div>
+			<div class="car_food clear">
+					<span class="float_l">牛肉汉堡</span>
+				<div class="all_money_box">￥<span class="chose_all_money">100</span></div>
+				<div class="add_cut">
+					<i class="add">-</i>
+					<input type="number" name="food_num_input" class="input_food_num" value="1">
+					<i class="cut">+</i>
+				</div>
+			</div>
+			<!-- !!购物车内容结束 -->
+		<div class="pei_song clear">
+			<p style="line-height: 20px;">
+				<span class="float_l">配送费</span>
+				<span class="pei_song_fei float_r">9</span>
+			</p>
+		</div>
+		<div class="all_money clear">
+			<span class="big">￥</span>
+			<span class="big_money">666</span>
+			<p class="num_all_box">
+			<span>共</span>
+			<span class="goods_num">2</span>
+			<span>件商品</span>
+			</p>
+		</div>
+	</div>
+<!-- 右侧用户下单表 -->
+	<div class="form_box">
+		<form>
+		<div class="user_id_box">
+			<span class="h5_size">用户名称 : </span>
+			<span class="h5_size">周杰伦</span>
+		</div>
+		<div class="get_box">
+			<h5 class="h5_size">收货地址</h5>
+			<label>
+			<input class="locat_input" type="text" name="">
+			</label>
+		</div>
+		<div class="pay_way">
+			<h5 class="h5_size">付款方式</h5>
+			<label><input class="pay" type="radio" name="fukuan"><span style="padding-left: 5px;">货到付款</span></label>
+		</div>
+		<div class="chose_time">
+			<h5 class="h5_size">送达时间</h5>
+			<label><input class="time" type="text" name="fukuan"></label>
+		</div>
+		<div class="phone_box">
+			<h5 class="h5_size">手机号码</h5>
+			<label><input class="phone" type="text" name="fukuan"></label>
+		</div>
+		<div class="remark_box">
+			<h5 class="h5_size">备注</h5>
+			<label><input class="remark" type="text" name="fukuan"></label>
+		</div>
+		<div class="remark_box">
+			<input class="buy_but" type="submit" name="" value="立即下单">
+		</div>
+		</form>
+	</div>
+
+	</div>
+</body>
+</html>
