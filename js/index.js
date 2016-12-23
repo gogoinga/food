@@ -184,7 +184,8 @@ buy_but.each(function(index, el) {
 				order.data[o]=obj.data[index];
 				o++;
 			}
-		});
+		});	
+			alert('请按F12看下输出对象');
 			console.log('最后输出的订单对象');
 			console.log(order);
 
