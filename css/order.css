@@ -140,13 +140,14 @@ font-size: 20px;
 	text-align: center;
 	border-bottom: 1px solid #e3e3e3;
 	color: #666666;
+	position: relative;
 }
-.add_cut{
+.order_add_cut{
 	display: inline-block;
 	width: 30%;
 	font-size: 0px;
     float: right;
-    margin-right: 36px;
+    margin-right: 27px;
 }
 .all_money_box {
 	display: inline-block;
@@ -169,6 +170,8 @@ font-size: 20px;
 	border-bottom: 1px solid #e3e3e3;
 	font-size: 14px;
 	width: 30px;
+	position: absolute;
+	right: 115px;
 }
 input::-webkit-inner-spin-button {
 -webkit-appearance: none;

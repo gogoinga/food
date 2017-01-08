@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>订单</title>
 	<link rel="stylesheet" type="text/css" href="css/order.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/iconfont.css">
 	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
 	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-    <script type="text/javascript" src="js/swiper-3.3.1.jquery.min.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/order.js"></script>
 </head>
 <body>
 		<header>
@@ -36,47 +35,31 @@
 			</div>
 		</header>
 <!-- 主体内容 -->
-	<div class="main_box">
+<div class="main_box">
 	<!-- 左侧订单表 -->
-		<div class="order_box clear">
-				<div class="order_title clear">
-					<h5 class="float_l">订单详情</h5>
-					<a class="float_r" href="javascript:;"><返回商店修改</a>
-				</div>
-				<div class="goods_name_box">
-					<span class="goods_name">商品</span>
-					<span class="goods_number">数量</span>
-					<span class="goods_money">小计</span>
-				</div>
+	<div class="order_box clear">
+		<div class="order_title clear">
+			<h5 class="float_l">订单详情</h5>
+			<a class="float_r" style="cursor: pointer;" onclick="window.history.back(-1);"><返回商店修改</a>
+		</div>
+		<div class="goods_name_box">
+			<span class="goods_name">商品</span>
+			<span class="goods_number">数量</span>
+			<span class="goods_money">小计</span>
+		</div>
 <!-- 后台动态添加进去的商品信息 -->
-			<div class="car_food clear">
-					<span class="float_l">牛肉汉堡</span>
-				<div class="all_money_box">￥<span class="chose_all_money">100</span></div>
-				<div class="add_cut">
-					<i class="add">-</i>
-					<input type="number" name="food_num_input" class="input_food_num" value="1">
-					<i class="cut">+</i>
-				</div>
+	<div class="order_good_box">
+		<!-- <div class="car_food clear">
+			<span class="float_l">牛肉汉堡</span>
+			<div class="all_money_box">
+				<sapn>￥</sapn>
+				<span class="chose_all_money">100</span>
 			</div>
-			<div class="car_food clear">
-					<span class="float_l">牛肉汉堡</span>
-				<div class="all_money_box">￥<span class="chose_all_money">100</span></div>
-				<div class="add_cut">
-					<i class="add">-</i>
-					<input type="number" name="food_num_input" class="input_food_num" value="1">
-					<i class="cut">+</i>
-				</div>
-			</div>
-			<div class="car_food clear">
-					<span class="float_l">牛肉汉堡</span>
-				<div class="all_money_box">￥<span class="chose_all_money">100</span></div>
-				<div class="add_cut">
-					<i class="add">-</i>
-					<input type="number" name="food_num_input" class="input_food_num" value="1">
-					<i class="cut">+</i>
-				</div>
-			</div>
-			<!-- !!购物车内容结束 -->
+				<input type="text" disabled="disabled" name="food_num_input" class="input_food_num" value="1">	
+		</div> -->
+
+	</div>
+<!-- !!购物车内容结束 -->
 		<div class="pei_song clear">
 			<p style="line-height: 20px;">
 				<span class="float_l">配送费</span>
@@ -85,10 +68,10 @@
 		</div>
 		<div class="all_money clear">
 			<span class="big">￥</span>
-			<span class="big_money">666</span>
+			<span class="big_money">0</span>
 			<p class="num_all_box">
 			<span>共</span>
-			<span class="goods_num">2</span>
+			<span class="goods_num">0</span>
 			<span>件商品</span>
 			</p>
 		</div>

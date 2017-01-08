@@ -173,7 +173,7 @@ buy_but.each(function(index, el) {
 	});
 //结算按钮
 	$('.play_button').on('click', function(event) {
-		event.preventDefault();
+		
 			var order={};
 			var o=0;
 			order.data=[];
@@ -184,30 +184,26 @@ buy_but.each(function(index, el) {
 				order.data[o]=obj.data[index];
 				o++;
 			}
-		});	
-			alert('请按F12看下输出对象');
+		});
 			console.log('最后输出的订单对象');
 			console.log(order);
 
 	if(obj.data.length==0){
-			alert('请至少选取一样食物')
+
+			event.preventDefault();
+			alert('请至少选取一样食物');
+
 		}
 		else{
-			/*$.ajax({  //ajax提交
-				url: '/path/to/file',
-				type: 'POST',
-				dataType: 'json',
-				data: {post_data: order},
-			})
-			.done(function() {
-				console.log("success");
-			})
-			.fail(function() {
-				console.log("error");
-			})
-			.always(function() {
-				console.log("complete");
-			});*/
+			var order_string=JSON.stringify(order);
+
+			 if(typeof(Storage) !== "undefined") {
+			 	sessionStorage.ord=order_string;
+			 	console.log(order_string);
+			 }
+			 else {
+			 	alert("该浏览器不支持H5存储");
+			 }
 			
 		}
 	});

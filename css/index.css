@@ -197,6 +197,7 @@
 	width: 100%;
 	border: 1px solid #e3e3e3;
 	margin-top: 20px;
+	padding-bottom: 116px;
 }
 .food_menu {
 	background: #ffffff;
@@ -317,7 +318,9 @@
 	background: #0089dc;
 	text-align: center;
 	color: #ffffff;
-	margin-top: 20px;	
+	margin-top: 20px;
+	position: fixed;
+	bottom: 0px;	
 }
 .foot .icon-mian {
 	font-size: 50px;
@@ -505,6 +508,7 @@
 .car_head{
 	padding: 15px 20px;
 	border-bottom: 1px solid #e3e3e3;
+	border: 1px solid #dadada;
 }
 .car_head .icon-gouwuche{
 	font-size: 25px;

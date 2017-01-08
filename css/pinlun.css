@@ -1,0 +1,23 @@
+.pinlun_input{
+	border: 1px solid #dadada;
+	resize:none;
+	display: block;
+	font-size: 20px;
+	width: 500px;
+	height: 200px;
+	margin: 30px auto;
+}
+.pinlun_but{
+	padding: 10px 10px;
+	background: #f74342;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.pinlun_form_title{
+	font-size: 25px;
+	color: #f74342;
+	text-align: center;
+	padding-top: 50px;
+}
